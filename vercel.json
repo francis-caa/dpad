@@ -1,0 +1,65 @@
+{
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.7.4"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api/login.php"
+    },
+    {
+      "source": "/agenda_bidang.php",
+      "destination": "/api/agenda_bidang.php"
+    },
+    {
+      "source": "/beranda.php",
+      "destination": "/api/beranda.php"
+    },
+    {
+      "source": "/check_conflict.php",
+      "destination": "/api/check_conflict.php"
+    },
+    {
+      "source": "/daftar_agenda.php",
+      "destination": "/api/daftar_agenda.php"
+    },
+    {
+      "source": "/edit_agenda.php",
+      "destination": "/api/edit_agenda.php"
+    },
+    {
+      "source": "/export_excel.php",
+      "destination": "/api/export_excel.php"
+    },
+    {
+      "source": "/export_pdf.php",
+      "destination": "/api/export_pdf.php"
+    },
+    {
+      "source": "/hapus_agenda.php",
+      "destination": "/api/hapus_agenda.php"
+    },
+    {
+      "source": "/login.php",
+      "destination": "/api/login.php"
+    },
+    {
+      "source": "/logout.php",
+      "destination": "/api/logout.php"
+    },
+    {
+      "source": "/pemesanan_ruang.php",
+      "destination": "/api/pemesanan_ruang.php"
+    },
+    {
+      "source": "/profil.php",
+      "destination": "/api/profil.php"
+    },
+    {
+      "source": "/riwayat_agenda.php",
+      "destination": "/api/riwayat_agenda.php"
+    }
+  ]
+}
